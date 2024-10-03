@@ -1,6 +1,6 @@
 #Develop a Program for checking if a given n digit number is palindrome or not 
 
-'''def palindrome(number):
+def palindrome(number):
     on = number
     rn = 0
 
@@ -19,9 +19,9 @@ n = int(input("enter a n - digit Number:"))
 if(palindrome(n)):
     print(n,"is a palindrome number")
 else:
-    print(n,"is not a palindrome number")'''
+    print(n,"is not a palindrome number")
 
-def palindrome(number):
+'''def palindrome(number):
     num_str = str(number)
     rev_str = ""
 
@@ -38,4 +38,4 @@ n = int(input("Enter a n-digit number: "))
 if palindrome(n):
     print(n, "is a palindrome number")
 else:
-    print(n, "is not a palindrome number")
+    print(n, "is not a palindrome number")'''
